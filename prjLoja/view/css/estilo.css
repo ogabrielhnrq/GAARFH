@@ -1,0 +1,185 @@
+
+
+.linha {
+    display:flex;
+    
+}
+
+.logo {
+    /*width: 20vw;*/
+    flex-grow: 2;
+    height: 10vh;
+    background-color: green;
+    color: white;
+}
+
+.menu {
+    /*width: 80vw;*/
+    flex-grow: 8;
+    height: 10vh;
+    background-color: black;
+    color: white;
+}
+
+.principal {
+    /*width: 100vw;*/
+    flex-grow: 1;
+    height: 80vh;
+    background-color: yellow;
+}
+
+.mapa {
+    /*width: 80vw;*/
+    flex-grow: 8;
+    height: 10vh;
+    background-color: darkgoldenrod;
+}
+
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 25vh;
+}
+
+.direito {
+    /*width: 20vw;*/
+    flex-grow: 1;
+    width: 100%;
+    background-color: blue;
+    color: white;
+}
+
+.rodape {
+    flex-grow: 1;
+    width: 100%;
+    background-color: red;
+    color: white;
+}
+
+.a {
+    background-color: aqua;
+    flex-grow: 1;
+    height: 15vh;
+}
+
+.b {
+    background-color: burlywood;
+    flex-grow: 3;
+    height: 15vh;
+
+}
+
+.c {
+    background-color: brown;
+    flex-grow: 2;
+    height: 15vh;
+
+}
+
+.d {
+    display: flex;
+    background-color: coral;
+    flex-grow: 1;
+    height: 60vh;
+    position: relative;
+    
+}
+
+.d1 {
+   position: absolute;
+   top: 20px;
+   left: 20px;
+  
+}
+
+.d2 {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    margin-left: 20px;
+}
+
+.d3 {
+    position: absolute;
+    top: 20px;
+    left: 240px;
+    margin-left: 20px;
+}
+
+.d4 {
+    position: absolute;
+    top: 20px;
+    left: 360px;
+    margin-left: 20px;
+}
+
+.d5 {
+    position: absolute;
+    top: 20px;
+    left: 480px;
+    margin-left: 20px;
+}
+
+.d6 {
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    margin-left: 20px;
+}
+
+.d7 {
+    position: absolute;
+    top: 20px;
+    left: 720px;
+    margin-left: 20px;
+}
+
+.e {
+    background-color: chocolate;
+    flex-grow: 1;
+    height: 60vh;
+}
+
+.f {
+    background-color: aquamarine;
+    flex-grow: 2;
+    height: 25vh;
+}
+
+.g {
+    background-color: blueviolet;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.h {
+    background-color: cornflowerblue;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.i {
+    background-color: crimson;
+    flex-grow: 2;
+    height: 25vh;
+}
+
+.card {
+    background-color: darkgreen;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+
+
+
+
